@@ -1,0 +1,55 @@
+/* *FONT * ----------------------------------------------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* *------------------------------------------------------------------------------------------------------------------------------ */
+body {
+  background-color: #1b1b1d;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+h4 {
+  text-align: center;
+}
+
+h3 {
+    color: #262649;
+    text-align: center;
+}
+
+td {
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+}
+
+a {
+  text-decoration: none;
+  color: #1c98d5;
+}
+
+a:hover {
+  color: #702929;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 470px) {
+  td {
+    height: 40px;
+    width: 40px;
+  }
+}
