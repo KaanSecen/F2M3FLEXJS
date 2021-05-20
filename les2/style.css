@@ -1,0 +1,27 @@
+/* *FONT * ----------------------------------------------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* *------------------------------------------------------------------------------------------------------------------------------ */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+
+p:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: #1C98D5;
+}
+
+a:hover {
+    color: #702929;
+}

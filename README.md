@@ -1,7 +1,7 @@
 ---
-# **Javascript**
+# **Javascript Live Versie**
 ---
-- [x] [LIVE Versie **(Website)**](http://kaansecen.nl/School/F1M4JS%20-%20FLEX/index.html)
+- [x] [Les 2 **(Website)**](http://kaansecen.nl/School/F1M4JS%20-%20FLEX/les2/index.html)
 ---
 > Belangrijk: Je kan op **de tekst** klikken👍.
 ---
