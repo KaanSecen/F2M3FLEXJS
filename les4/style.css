@@ -1,0 +1,108 @@
+/* *FONT * ----------------------------------------------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* *------------------------------------------------------------------------------------------------------------------------------ */
+body {
+  background-color: #1b1b1d;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #7f7f87;
+}
+
+h4 {
+  text-align: center;
+}
+
+h3 {
+  color: #262649;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #1c98d5;
+}
+
+a:hover {
+  color: #702929;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#antwoordenblad {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#container {
+  margin-left: auto;
+  margin-top: 100px;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 600px;
+  height: 275px;
+  background-color: #f8f8f8;
+}
+
+@media screen and (max-width: 470px) {
+  #container {
+    margin-top: 50px;
+    width: 370px;
+    height: 320px;
+  }
+  #antwoordenblad {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #input1 {
+    width: 140px;
+  }
+}
+
+.Knopje {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.Knopje:hover {
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background-color: #f6f6f6;
+}
+.Knopje:active {
+  position: relative;
+  top: 1px;
+}
+#input1 {
+  border: 2px solid #262649;
+  background-color: #666666;
+  color: #ffffff;
+}
