@@ -20,6 +20,12 @@ function maakOpgave() {
 
 execButton.addEventListener("click", checkAntwoord);
 
+document.getElementById('input1').onkeypress=function(e){
+  if(e.keyCode==13){
+      document.getElementById('execButton').click();
+  }
+}
+
 function checkAntwoord() {
   if (som == input1.value) {
     goed += 1;
